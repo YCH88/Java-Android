@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dc.ceitim.Temelaritmatikislemler">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Temel Aritmatik İşlemler"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text='\tEkrana yazı yazdırdığımıza göre artık biraz da sayı görelim değil mi?\n\tİleride sayılarla bol bol işlem yapıcağız bu yüzden en baştan bilgisayarın sayıları nasıl anladığıyla başlayalım\n\tDeğişken Tipleri konusunda anlatacağız ama şimdilik sayıları bilgisayarın hafızasında tutması için "int" kelimesini aklınızdan çıkarmayın.Tabii bu "int" sayımızın birde ismi olmalı ki bilgisayara söylediğimizde hangi sayıyı getirmesi gerektiğini anlasın\n\tYani genel Tablo olarak örnek verirsek;\n\n\t int sayi1=5;\n'
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="int -> değişken tipi  (Integer=Tam Sayı)\nsayi1 -> değişkenin ismi \n\n\tArtık ben bilgisayara sayi1 dediğimde sayı olarak 5 değerini döndürecektir.\n"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/temelaritmatik" />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n\tBurada sayi1 değişkenimizi 5 olarak belirlemişiz ardından ekrana yazdırma komutunu girmişiz ve konsol ekranını ekranda kalması için Console.ReadLine() komutunu yazmışız. Ekrana sizin de tahmin ettiğiniz gibi sayi1'in değerini yazdırması gerekiyor. "
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/temelaritmatik2" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n\tİsterseniz sayi1'in değerini sonradan değiştirebilirsiniz veya başka sayılarla işleme sokabilirsiniz."
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="wrap_content"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/temelaritmatik3" />
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\tGelin ilk önce kodu bir yorumlayalım.\n\n\tsayi1 değişkeni 5 olmuş.\n\n\tSonra sayi1 değişkenini sayi1'in değeriyle 6 nın toplamına eşitlemişiz  (5+6)\n\n\tSonra sayi1 'in en son değerini ekrana yazdırışısız.\n\n\tSonra sayi1'in d edğerini 88 yapmışız.\n\n\tOndan sonra ise sayi1'in değerini ekrana yazdırmışısız.\n\n\tVe en son olarak ekrana sayi1'in değeri ile 12'in toplamını yazdırmışız.\n  "
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/temelaritmatik4" />
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n\tTıpkı düşündüğümüz gibi ilk önce sayi1 'in değeriyle 6 ' nın toplamını (Yani 5+6=11) sonra sayi1'in değerini yazdırmışız (Ondan önce sayi1'i 88'e eşitlemiştik) ve en son olarak sayi1'in değeriyle 12'nin toplamını yazdırmışız. (88+12=100)"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

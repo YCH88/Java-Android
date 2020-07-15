@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dc.ceitim.HelloWorld">
+
+    <ScrollView
+        android:id="@+id/scrollView4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="0dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:text="HELLO WORLD"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="28sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\tBu kadar teknik bilgiden sonra arkadaşlarınıza hava atabilmeniz ve sizi bu işe teşvik etmesi için hadi gelin ilk programımı yazalım.\n\tBütün programlama dilleri HELLO WORLD ile başlar hadi C# konsol ekranına 'Merhaba Dünya' yazdıralım."
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/helloworld" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\tC# 'da konsol ekranına yazı yazdırma komutu yukardaki resimdede gördüğünüz üzere \n\tConsole.WriteLine(&quot; TIRNAK İÇİNE EKRANA BASILACAK ÖĞELER&quot;);  şeklindedir."
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\tEğer sadece bunu yazdıysanız mıuhtemelen konsol ekranındaki yazıyı göremeden kendisi kaybolacaktır.\nKorkmayın bilgisayarınızı hacklemedik.\n\tC# kullanım alanı çok geniş olduğu için bu dil yapılırken programcılar kullanıcının görmek istemeyeceği bir sürü işi alttan yapmak istemişler. Bu yüzden ekran kendi kendini kapattı. Bunu engellemek için ayrıyeten bir komut var."
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/helloworld2" />
+
+
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\tEntere basılana kadar programın bir sonraki admına geçmemeisini sağlayan komutumuz Console.ReadLine();\n\tYukardada görüldüğü üzere bu komutu yazarsak konsol ekranımız biz Enter'a basana kadar ekranda kalıyor.\n\tBu komutu genel olarak klavyeden veri almak için kullanacağız"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/helloworld3" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n\tEkran çıktısında görüldüğü gibi MERHABA DÜNYA ....\n"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SİZDE DENEYİN"
+                android:background="@color/cardview_dark_background"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nSizde Kendi İsminizi Ekrana Yazdırın ve Kendinizle Gurur Duyun"
+                android:background="@color/cardview_dark_background"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nKlavyeden Veri Alma\n"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\tAslında bu konuyu detaylıca &quot;Değişken Tipleri&quot; başlığında anlatacağız. Ama şimdilik size klavyeden girilen bir yazıyı ekrana bastırmayı göstereceğiz.\n\tSize daha önceden Console.ReadLine() komutundan bahsetmiştik. Bu komutun tam görevi enter'a basıldığında enterdan önceki yazılanları almaktır. Biz önceki örneklerimizde aldığımız yazıyı hiç bir işleme sokmadığımız için bunu programda görememiştik.\n\tŞimdi klavyeden girilenleri ekrana yazdıralım.\n\tZaten ekrana yazdırma komutunu görmüştük. Console.WriteLine(); komutunun parantezleri içine ekrana yazdırılcak metni yazıyorduk.\n\tYazdırılcak metni ise klavyeden Console.ReadLine(); komutu ile alıyorduk.\n\tKısaca Komutumuz: \n\tConsole.WriteLine(Console.ReadLine());"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/helloworld4" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/helloworld5" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

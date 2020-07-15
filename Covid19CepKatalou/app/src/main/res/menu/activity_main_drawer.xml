@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/soruisareti"
+            android:title="@string/menu_home"
+            android:color="@color/colorPrimary"
+            />
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/splash"
+            android:color="@color/colorPrimary"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/belirti"
+            android:color="@color/colorPrimary"
+            android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/nav_tools"
+            android:icon="@drawable/koruma"
+            android:color="@color/colorPrimary"
+            android:title="@string/menu_tools" />
+        <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/isleyis"
+            android:color="@color/colorPrimary"
+                android:title="Vücuda Etkileri"/>
+        <item
+            android:id="@+id/nav_guncel"
+            android:icon="@drawable/liste"
+            android:color="@color/colorPrimary"
+            android:title="Türkiyedeki Güncel Durum"/>
+
+    </group>
+
+
+</menu>

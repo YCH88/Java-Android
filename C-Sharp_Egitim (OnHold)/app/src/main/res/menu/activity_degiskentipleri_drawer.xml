@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single" >
+        <item android:title="Dersler">
+            <menu>
+                <item
+                    android:id="@+id/bolum1"
+                    android:icon="@drawable/temel"
+                    android:title="Programlamanın Temelleri" />
+                <item
+                    android:id="@+id/bolum2"
+                    android:icon="@drawable/vi"
+                    android:title="Değişken Tipleri" /> //birbirine dönüşümleri bilgiler vs
+                <item
+                    android:id="@+id/bolum3"
+                    android:icon="@drawable/digitalbrain"
+                    android:title="Karar/Kontrol Mekanizmaları" />//if else switch case vs vs
+                <item
+                    android:id="@+id/bolum4"
+                    android:icon="@drawable/lop"
+                    android:title="Döngüler" />
+
+                <item
+                    android:id="@+id/bolum5"
+                    android:icon="@drawable/koseli"
+                    android:title="Diziler" />
+
+                <item
+                    android:id="@+id/bolum6"
+                    android:icon="@drawable/code"
+                    android:title="Hazır Metotlar" />
+            </menu>
+        </item>
+
+    </group>
+
+    <item android:title="İletişim">
+        <menu>
+            <item
+                android:id="@+id/geribildirim"
+                android:icon="@drawable/logo2"
+                android:title="Geri Bildirim" />
+            <item
+                android:id="@+id/ulasin"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Bize Ulaşın" />
+        </menu>
+    </item>
+</menu>

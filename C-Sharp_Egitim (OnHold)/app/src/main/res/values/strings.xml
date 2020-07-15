@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">C# Eğitim</string>
+    <string name="title_activity_anamenu">Anamenu</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_programlamatemelleri">programlamatemelleri</string>
+    <string name="title_activity_degiskentipleri">degiskentipleri</string>
+    <string name="title_activity_kontrolmekanizmalari">kontrolmekanizmalari</string>
+    <string name="algoritma_nedir">Algoritma Nedir?</string>
+    <string name="algoritma_nedirr">\tAlgoritma en basit anlamıyla bir problemi çözmek için ulgulanan her bir adımı tek tek düşünme, planlama ve uygulama işlemlerinin hepsidir.\n\tBuna bir örnek vericek olursak;\n\tDiyelimki odanızda sandalyede oturuyorsunuz ve salona gitmek istiyorsunuz... Çok basit bir örnek yapıcağınız şey belli kalkıp kapıyı açıcaksınız ve salona kadar yürüceksiniz.\n\tBunu bir bilgisayara yaptırmak istersek yaptığımız işleri sırasıyla adım adım yaptırmamız gerekir.Aslında Algoritma dediğimiz şey tam olarak budur. Bilgisayara yaptırmak istediğimiz şeyi adım adım planlamak ve anlatmak. Hadi bu örnegin bir algoritmasını çıkaralım.\n\t\n\t1-)Kalk\n\t2-)Kapıya doğru git\n\t3-)Kapı kapalıysa aç değilse\n\t4-)Salona doğru yönel\n\t5-)Salona varana kadar yürü\n\t6-)Salona varınca dur\n\t\n\tGördüğünüz gibi çok basit bir şekilde salona gitme işinin algoritmasını 6 adımda yazdık.\n\t\n\tAlgoritma ayrıca kendine has bir dildir ve evrenseldir bu yüzden Algoritmada kelimelerin yerlerini tutan semboller kullanılır.</string>
+    <string name="akis_diyagramlari">\tAkış diyagramı, bir problemin çözümüne yönelik izlenecek yöntemlerin şekil ve sembollerle ifade edilmesidir. Akış şemasında her adım birbirinden farklı anlamlar taşıyan şekillerden oluşur ve adımlar arasındaki ilişki oklar ile tayin edilir. Kodlanacak programın akış şemasının oluşturulması, sürecin daha kolay çözümlenmesine yardımcı olur.</string>
+    <string name="title_activity_bolum1_orneksorular">b1orneksorular</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
